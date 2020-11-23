@@ -6,7 +6,7 @@ body {
 /*Navbar*/
 
 .nav-bg-light {
-    background-color: #ce9da2;
+    background-color: rgba(206, 157 ,162 , 0.8);
 }
 
 .brand-name {
@@ -34,26 +34,26 @@ body {
 .mainbody-container {
   height: 80vh;
 
-  background: url("assets/images/wedding-cake-bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../../assets/images/main-bg.jpg") no-repeat center right fixed; 
   background-size: cover;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  
 }
 
 .reviews-container {
-    background-color: #ce9da2;
+    background-color: rgba(206, 157 ,162 , 0.8);
 }
 
 /*Body text*/
 
-.mark-bg {
-    background-color: #ce9da2;
+.intro {
+    color: white;
 }
+
 
 /*Page Headers*/
 
