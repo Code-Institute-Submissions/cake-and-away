@@ -6,14 +6,14 @@ body {
 /*Navbar*/
 
 .nav-bg-light {
-    background-color: rgba(206, 157 ,162 , 0.8);
+    background-color: rgb(172, 114, 119, 0.8);
 }
 
 .brand-name {
     font-family: "Dancing Script", sans-serif;
     font-size: 200%;
     margin-left: 15px;
-    color: black;
+    color: #584B53;
 }
 
 .navbar-toggler {
@@ -34,18 +34,17 @@ body {
 .mainbody-container {
   height: 80vh;
 
-  background: url("../../assets/images/main-bg.jpg") no-repeat center right fixed; 
+  background: url("../../assets/images/home-main-bg.jpg") no-repeat center right fixed; 
   background-size: cover;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  
 }
 
 .reviews-container {
-    background-color: rgba(206, 157 ,162 , 0.8);
+    background-color: rgb(172, 114, 119, 0.8);
 }
 
 .container-quote {
@@ -53,11 +52,34 @@ body {
     background-size: cover;
 }
 
+.gallery-container {
+    padding-top: 2rem;
+}
+
 /*Body text*/
 
+.main-body {
+    background-color: rgb(88, 75, 83, 0.7);
+}
+
+.main-body p h2 {
+    height: max-content;
+}
 .intro {
     color: white;
 }
+
+.intro p {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 3.5vh;
+}
+.intro hr {
+    background-color: #584B53;
+}
+
 
 
 /*Page Headers*/
@@ -70,31 +92,54 @@ body {
     font-size: 280%;
 }
 
+.review p {
+    padding-right: 50px;
+    padding-left: 50px;
+}
 
 /*Footer*/
 
 .footer-container {
-    margin-top: 2vh;
+    height: 1px;
 }
 
 .footer-container ul {
-    margin-top: 10rem;
-    margin-bottom: 1rem;
+    margin-top: 4vh;
+    margin-bottom: 2rem;
 }
 
 .footer-container i {
     font-size: 250%;
-    color: #ce9da2;
+    color: #ac7277;
 }
 
-.gallery-container {
-    padding-top: 2rem;
+.copyright {
+    font-size: large;
+    font-weight: 400;
+    padding-bottom: 6vh;
+    margin: auto;
+    text-align: center;
+    color: #AC7277;
 }
+
+.contact-us-footer {
+    text-align: center;
+    display: inline;
+    margin-top: 4vh;
+    margin-bottom: 2rem;
+    color: #AC7277;
+}   
+
+.contact-us-footer p {
+    margin-top: 2vh;
+    padding-top: 1.5rem;
+}
+
 
 /*Quote*/
 
 .quote {
-    background-color: rgba(206, 157 ,162 , 0.25);
+    background-color: rgba(172, 114, 119 , 0.25);
     padding: 30px;
     max-width: 60%;
     text-align: center;
@@ -140,7 +185,7 @@ select {
 
 .btn-custom {
   display: inline;
-  background-color: #ce9da2;
+  background-color: #ac7277;
   color: black;
   display: flex;
   text-align: center;
@@ -148,7 +193,7 @@ select {
 }
 
 .btn-custom:hover {
-    background-color: #91b9e4;
+    background-color: #D6E3F8;
 }
 
 /*Gallery*/
