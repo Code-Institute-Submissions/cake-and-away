@@ -74,7 +74,7 @@ body {
 /*Footer*/
 
 .footer-container {
-    height: 2vh;
+    margin-top: 2vh;
 }
 
 .footer-container ul {
@@ -85,6 +85,10 @@ body {
 .footer-container i {
     font-size: 250%;
     color: #ce9da2;
+}
+
+.gallery-container {
+    padding-top: 2rem;
 }
 
 /*Quote*/
@@ -127,7 +131,7 @@ input {
 
 .form-control {
     display: inline;
-    width: 23%;
+    width: auto;
 }
 
 select {
@@ -145,6 +149,13 @@ select {
 
 .btn-custom:hover {
     background-color: #91b9e4;
+}
+
+/*Gallery*/
+
+.carousel-inner {
+     width:100%; 
+     height: fit-content;
 }
 
 / Large devices (desktops, 992px and up) /
