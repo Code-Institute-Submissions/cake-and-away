@@ -188,9 +188,80 @@ select {
 
 /*Gallery*/
 
-.carousel-inner {
-     width:100%; 
-     height: fit-content;
+.gallery-container {
+  position: relative;
+  width: 100%;
+  background-color: #F1D8C3;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FEF5EF;
+}
+
+.gallery-first-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-second-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-third-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-fourth-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-fifth-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-sixth-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-seventh-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-eighth-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.gallery-ninth-col:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: #825F65;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 / Large devices (desktops, 992px and up) /
@@ -206,4 +277,3 @@ select {
         position: absolute;
         right: 17px;
     }
-
