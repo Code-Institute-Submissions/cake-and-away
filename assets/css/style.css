@@ -40,7 +40,7 @@ body {
 /*Containers*/
 
 .mainbody-container {
-  height: 80vh;
+  height: 100vh;
 
   background: url("../../assets/images/home-main-bg.jpg") no-repeat center right fixed; 
   background-size: cover;
@@ -70,6 +70,7 @@ body {
     background-color: rgb(108, 109, 147, 0.7);
     border-radius: 2%;
     width: 60vh;
+    position: absolute;
 }
 
 .main-body p h2 {
@@ -90,6 +91,24 @@ body {
     background-color: #AC7277;
 }
 
+.how-it-started-main-text p {
+    line-height: 30px;
+    font-size: 20px;
+    color: #432371;
+}
+
+.how-it-started hr {
+    color: #FAAE7B;
+}
+
+.slogan h3 {
+    font-size: 2rem;
+    font-family: "Dancing Script", sans-serif;
+    color: #B47978;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 
 /*Page Headers*/
@@ -105,6 +124,14 @@ body {
 .review p {
     padding-right: 50px;
     padding-left: 50px;
+}
+
+
+.how-it-started-header h2 {
+    font-size: 3rem;
+    font-family: "Dancing Script", sans-serif;
+    color: #432371;
+    margin-top: 2rem;
 }
 
 /*Footer*/
@@ -156,7 +183,7 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 3px solid rgb(0 0 0 / 55%);
+    border-top: 3px solid;
     width: 50%;
 }
 
