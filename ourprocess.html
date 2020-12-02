@@ -37,7 +37,7 @@
 					<a class="nav-link" href="gallery.html">Gallery</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="quote.html">Quote</a>
+					<a class="nav-link" href="contactus.html">Contact Us</a>
 				</li>
 			</ul>
 		</div>
@@ -108,26 +108,49 @@
 		</div>
 		<div class="row">
 			<div class="col-12">
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#getaquoteModal">
                 Get a quote!
                 </button>
 				<!-- Modal -->
-				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+				<div class="modal fade" id="getaquoteModal" tabindex="-1" aria-labelledby="getaquoteModalLabel"
 					aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<h5 class="modal-title" id="getaquoteModalLabel">Request a Quote!</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
 							</div>
 							<div class="modal-body">
-								...
+								<form class="quote">
+									<label for="fullname">Full Name</label>
+									<input class="text-input" type="text" id="fullname" name="full_name">
+
+									<label for="email">Email Address</label>
+									<input class="text-input" type="email" id="email" name="email_address">
+
+									<label for="cakeflavour">Cake Flavour</label>
+									<input class="text-input" type="text" id="cakeflavou" name="cakeflavou">
+
+									<label for="cakedesign">Cake Design</label>
+									<input class="text-input" type="text" id="cakedesign" name="cakedesign">
+
+									<label for="cakesize">Cake Size</label>
+									<select class="form-control" id="cakesize" name="cake_size" required>
+                                        <option>4"</option>
+                                        <option>6"</option>
+                                        <option>8"</option>
+                                        <option>10"</option>
+                                        <option>12"</option>
+                                        <option>14"</option>
+                                        <option>16"</option>
+                                        <option>18"</option>
+                                    </select>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Save changes</button>
+								<button type="button" class="btn btn-primary">Submit</button>
 							</div>
 						</div>
 					</div>

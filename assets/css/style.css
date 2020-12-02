@@ -178,7 +178,7 @@ body {
 .quote {
     background-color: rgba(172, 114, 119 , 0.25);
     padding: 30px;
-    max-width: 60%;
+    max-width: 100%;
     text-align: center;
     margin: auto;
 }
