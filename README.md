@@ -9,7 +9,9 @@ This is a website for people who are interested in purchasing personalised cakes
  
 The site allows users to request a quote, showcasing the different options they have when ordering the cake, such as size and flavour, what we recommend a user select based off experience is also provided. A fully portfolio of previous cake designs is showcased on our gallery page. A contact us page is also provided for non-quote queries.
 
-![Image]<a href="https://ibb.co/W6XFQnr"><img src="https://i.ibb.co/t46cSB0/am-i-responsive-cake-and-away.png" alt="am-i-responsive-cake-and-away" border="0"></a>
+A live demo can be found [here](https://saamnuur.github.io/cake-and-away/).
+
+<a href="https://ibb.co/W6XFQnr"><img src="https://i.ibb.co/t46cSB0/am-i-responsive-cake-and-away.png" alt="am-i-responsive-cake-and-away" border="0"></a>
 
 ## UX
 ### Strategy

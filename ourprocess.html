@@ -21,7 +21,8 @@
 <body>
     <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-light nav-bg-light">
-        <a class="navbar-brand brand-name" href="index.html">Cake and Away</a>
+        <a class="navbar-brand brand-name" href="index.html">
+            <i class="fas fa-birthday-cake cake-icon"></i> Cake and Away</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,14 +38,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactus.html">Contact Us</a>
-                </li>
             </ul>
         </div>
     </nav>
     <!--/nav-->
-
+    <div class="nav-break">
+        <hr>
+    </div>
     <div class="container-fluid our-process-container">
         <!--Our process-->
         <div class="row">
@@ -58,14 +58,14 @@
                 <div class="card">
                     <div class="card-container">
                         <h2>Sizes:</h2>
-                        <p>4"</p>
-                        <p>6"</p>
-                        <p>8"</p>
-                        <p>10"</p>
-                        <p>12"</p>
-                        <p>14"</p>
-                        <p>16"</p>
-                        <p>18"</p>
+                        <p>4" - From £30</p>
+                        <p>6" - From £35</p>
+                        <p>8" - From £40</p>
+                        <p>10" - From £45</p>
+                        <p>12" - From £50</p>
+                        <p>14" - From £55</p>
+                        <p>16" - From £60</p>
+                        <p>18" - From £65</p>
                         <p><small>We also do tiered cakes! Please enquire!</small></p>
                     </div>
                 </div>
@@ -128,7 +128,8 @@
                                             <input type="fullname" class="form-control" id="fullname" required>
                                         </div>
                                         <div class="form-group col-md-6 col-lg-6 col-sm-12">
-                                            <label for="inputEmail4"><i class="fas fa-envelope-open-text"></i>Email</label>
+                                            <label for="inputEmail4"><i
+                                                    class="fas fa-envelope-open-text"></i>Email</label>
                                             <input type="email" class="form-control" id="inputEmail4" required>
                                         </div>
                                     </div>
@@ -216,32 +217,96 @@
         <!--/reviews-->
     </div>
 
-    <div class="container footer-container">
+    <div class="container-fluid footer-container">
         <!--Social Media-->
         <footer>
-            <div class="row">
-                <div class="col-12 contact-us-footer">
-                    <h3>Contact Us:</h3>
-                    <p href="mailto:cakeandaway@gmail.com">cakeandaway@gmail.com</p>
+            <div class="row contact-us-footer">
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=london%2C%20hackney&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://youtube-embed-code.com">youtube embed code</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 col-sm-12 contactus">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Comments" class="col-sm-2 col-form-label">Comments</label>
+                            <div class="col-10">
+                                <textarea class="form-control" id="Comments" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-8 col-md-8 col-sm-12">Please tick the box if you would like to suscribe
+                                to our
+                                newsletters</div>
+                            <div class="col-lg-2 col-md-2 col-sm-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#contactusbutton">
+                            Submit
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="contactusbutton" tabindex="-1" role="dialog"
+                            aria-labelledby="contactusbutton" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="contactusbutton">Thank You!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Your details have been sent across. You should receive a response within 3
+                                        working days.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <ul class="list-inline social-networks">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/ru.nu.7796" target="_blank">
-                                <i class="fab fa-facebook-square"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/cakeandaway/" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-12">
+                <ul class="list-inline social-networks">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/ru.nu.7796" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/cakeandaway/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div class="row">
                 <div class="col-12 copyright">
