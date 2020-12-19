@@ -53,6 +53,7 @@ body {
 
 .reviews-container {
     background-color: #FEF5EF;
+    width: 100%;
 }
 
 .container-quote {
@@ -65,8 +66,7 @@ body {
 }
 
 .our-process-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    background-color: #FEF5EF;
 }
 
 /*Body text*/
@@ -176,18 +176,23 @@ body {
 /*Quote*/
 
 .quote {
-    background-color: rgba(172, 114, 119 , 0.25);
-    padding: 30px;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
+  text-align: center;
 }
 
-.request-a-quote {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+.modal-header h5 {
+    font-size: 3rem;
     font-family: "Dancing Script", sans-serif;
     text-align: center;
+}
+
+.modal-header {
+    justify-content: center;
+}
+
+
+.get-a-quote {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 hr {
@@ -202,7 +207,6 @@ label {
     display: grid;
     margin-bottom: .5rem;
     font-size: larger;
-    font-weight: 700;
 }
 
 input {
@@ -220,17 +224,20 @@ select {
     margin-bottom: 1rem;
 }
 
-.btn-custom {
-  display: inline;
-  background-color: #ac7277;
-  color: black;
-  display: flex;
-  text-align: center;
-  margin: auto;
+.modal-footer {
+    justify-content: center;
 }
 
-.btn-custom:hover {
-    background-color: #D6E3F8;
+
+.btn-quote {
+    color: #fff;
+    background-color: #6c6d93;
+    border-color: #6c6d93;
+    font-size: 2rem;
+}
+
+.btn-quote:hover {
+    background-color: #ac7277;
 }
 
 /*Gallery*/
