@@ -77,11 +77,10 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
 #### Gallery
 * This page shows 9 images, each of the same height, in the desktop version you can see three in one row, whereas in the mobile view you can see one cake at a time.
 * Upon hovering over the cake images, an overlay was added with a short description of the cakes. The description is in the structure of the card information previous stated in the ‘our process’ pages, so, it would have the cake size, flavour and design.
-#### Contact Us
-* The page welcomes users by having contact information and a form for any enquiries
-* There is also a map on the left-hand side of the form
 #### Footer
-* The footer provides an email address for people to contact and social media links, using font awesome icons
+* The footer provides social media links, using font awesome icons.
+* It also includes a map to show the location the cake store is based.
+* A 'contact us' form is also located for any further queries.
 ### Features Left to Implement
 * Include an online chatbot for people to ask simple questions and receive a response instantly – however, this is beyond my current knowledge
 * Allowing some sort of calculator, which when a specific cake size or flavour is selected, pricing for this would appear
