@@ -119,7 +119,7 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
 
 ## Testing
 W3C Markup Validator and W3C CSS Validator Services were utilized to approve each page of the task to guarantee there were no syntax errors in the project.
-- W3C Markup Validator - <a href="assets/docs/validation/w3chtmlvalidator.pdf.pdf" target="_blank" >  Results</a>
+- W3C Markup Validator - <a href="assets/docs/validation/w3chtmlvalidator.pdf" target="_blank" >  Results</a>
 - W3C CSS Validator - <a href="assets/docs/validation/w3cssvalidator.pdf" target="_blank" >  Results</a>
 
 Throughout the project there was some errors, such as the nav-bar, I did want the logo to be on the left hands-side, but the rest of the menu on the right-hand side. To fix this I had to use media queries.
@@ -158,7 +158,7 @@ All text content was created by me.
 ### Media
 - The background image for the landing page was obtained from [Pixabay](https://pixabay.com)
 - All gallery images were taken by either by myself or sister
-- The images of the two people in the reviews section was obtained from [Generated Photo's:](https://generated.photos/faces)
+- The images of the two people in the reviews section was obtained from [Generated Photo's](https://generated.photos/faces)
 ### Acknowledgements
 - This project idea was mostly created for my sister and family as we run a ccake business
 - Google was a big help as I looked at sevral different cake and baking websites for inspiration
