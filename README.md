@@ -11,7 +11,7 @@ The site allows users to request a quote, showcasing the different options they 
 
 A live demo can be found [here](https://saamnuur.github.io/cake-and-away/).
 
-<a href="https://ibb.co/W6XFQnr"><img src="https://i.ibb.co/t46cSB0/am-i-responsive-cake-and-away.png" alt="am-i-responsive-cake-and-away" border="0"></a>
+<a href="https://ibb.co/pXKvRf0"><img src="https://i.ibb.co/s31v6Km/cake-and-away-responsive.png" alt="cake-and-away-responsive" border="0"></a>
 
 ## UX
 ### Strategy
@@ -88,6 +88,12 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
 * Have more image animation
 * Improve the look on the ‘Build your cake’ section
 
+## Technologies Used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets/)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -105,14 +111,46 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
     - GitHub is used to store the projects code.
 - [Mockflow:](https://mockflow.com/)
     - Mockflow was used to create the wireframes during the design process.
-- [Mockflow:](https://mockflow.com/)
-    - Mockflow was used to create the wireframes during the design process.
+- [AmIResponsive:](http://ami.responsivedesign.is/#)
+    - Used to check how the layout of the website looks across different devices.
+- [W3Schools:](https://www.w3schools.com/)
+    - Used as a resource for coding and CSS styling tips
 
 ## Testing
 W3C Markup Validator and W3C CSS Validator Services were utilized to approve each page of the task to guarantee there were no syntax errors in the project.
+- W3C Markup Validator - <a href="assets/docs/validation/w3chtmlvalidator.pdf.pdf" target="_blank" >  Results</a>
+- W3C CSS Validator - <a href="assets/docs/validation/w3cssvalidator.pdf" target="_blank" >  Results</a>
+
+Throughout the project there was some errors, such as the nav-bar, I did want the logo to be on the left hands-side, but the rest of the menu on the right-hand side. To fix this I had to use media queries.
+
+If you try to submit the contact form without populating the email address field, there will be an error noting the invalid email address.
+
+All social media links or any external links will open in a new tab using 'target="_blank".
+
+This entire site was tested across several browsers (Chrome, FireFox, Safari, Internet Explorer/Edge) and on numerous mobile devices (iPhone 5/6/7/8/X: Chrome and Safari, iPad, Samsung Galaxy, Moto G4) to ensure compatibility and responsiveness on all means.
+
+### Testing User Stories from User Experience (UX) Section
+#### First time users
+The user story first time visit goals were acheieved, the 'Our Process' page lead's, giving people initial prices and the three different key steps needed to build your cake.
+From that information, you were are then required to send a quote, which have the same fields.
+A gallery page is available for those to see previous designs, which might help inspire them to try out different cake styles.
+- I want to be able to see the different cake options available and base my quote request off that.
+  - There is a page specific for this, where it introduces the section as 'build your cake', here it has the three main sections on what they need to send in a quote.
+    Below is a quote botton for those to submit all their ideas.
+- As a First Time Visitor, I would like to be able to see the different types of cakes that were previously made so I can see if the designer can make the cake I’ve been dreaming of.
+  - Our gallery page showcases previous cakes that have been made to show our capabilities and to inspire.
+- As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+  - A reviews section under the titled 'Sweet words' was created to have a few testimoals. The page footers all have the social media links.
+#### Returning Visitor Goals
+- As a Returning Visitor, I want to see if they have created new cake flavours and different designs, or even other desserts.
+- As a returning user, I would like to find the best means of contacting the company, even for other queries, which might not necessarily be about a quote.
+- I would like to see if their cake designing portfolio has increased, and, if the delivery area for cakes has expanded.
 
 
 ## Deployment
+The site is hosted using GitHub pages, deployed directly from the master branch. Once there has been a new commit and push on GitPod, the GitHub site will automatically update.
+To ensure correct deployment, the landing page must be named index.html.
+
 ## Credits
 ### Content
 - Code: - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project using the Bootstrap Grid System, Modal and Carousel.

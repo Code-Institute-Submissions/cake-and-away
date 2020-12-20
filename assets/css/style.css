@@ -198,8 +198,11 @@ width:100%;
     width: 100%;
 }
 
-.contactus {
-    align-items: left;
+iframe {
+width:500px;
+height:500px;
+overflow-x:hidden;
+overflow-y:hidden;
 }
 
 .contactus h3 {
@@ -251,7 +254,7 @@ label {
 }
 
 input {
-  max-width: 200x;
+  max-width: 200px;
   width: 80%;
   min-width: 50px;
 }
@@ -273,7 +276,6 @@ select {
 .btn-quote {
     color: #fff;
     background-color: #6c6d93;
-    border-color: #6c6d93;
     font-size: 2rem;
 }
 
@@ -353,8 +355,6 @@ select {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -403,8 +403,13 @@ select {
     font-size: 1.5rem;
 }
 
+.form-check {
+    position: relative;
+    display: inline;
+    padding-left: 1.25rem;
+}
 
-/ Large devices (desktops, 992px and up) /
+/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
     .navbar-nav{
         position: absolute;
@@ -417,9 +422,10 @@ select {
         position: absolute;
         right: 17px;
     }
+}
 
 @media screen and (max-width: 468px) {
     .navbar-brand {
-    font-size: 20px;    
+        font-size: 20px;    
+        }
     }
-}

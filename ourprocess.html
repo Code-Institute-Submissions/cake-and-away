@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-12 build-your-cake">
                 <h1>Build your cake!</h1>
-                <p style="uppercase">~Create your dream cake!~</p>
+                <p>~Create your dream cake!~</p>
             </div>
         </div>
         <div class="row">
@@ -113,7 +113,7 @@
                     Get a quote!
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="getaquoteModal" tabindex="-1" aria-labelledby="getaquoteModalLabel"
+                <div class="modal fade" id="getaquoteModal" tabindex="-1" aria-labelledby="getaquoteModal"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -125,12 +125,12 @@
                                     <div class="form-row">
                                         <div class="form-group col-md-6 col-lg-6 col-sm-12">
                                             <label for="fullname"><i class="fas fa-keyboard"></i>Full Name</label>
-                                            <input type="fullname" class="form-control" id="fullname" required>
+                                            <input type="text" class="form-control" id="fullname">
                                         </div>
-                                        <div class="form-group col-md-6 col-lg-6 col-sm-12">
-                                            <label for="inputEmail4"><i
-                                                    class="fas fa-envelope-open-text"></i>Email</label>
-                                            <input type="email" class="form-control" id="inputEmail4" required>
+                                        <div class="col-md-6 col-lg-6 col-sm-12">
+                                            <label for="validationDefault03">
+                                                <i class="fas fa-envelope-open-text"></i>Email</label>
+                                            <input type="email" class="form-control" id="validationDefault03" required>
                                         </div>
                                     </div>
                                     <div class="form-row">
@@ -150,7 +150,7 @@
                                         </div>
                                         <div class="form-group col-md-6 col-lg-6 col-sm-12">
                                             <label for="cakeflavour">Cake Flavour</label>
-                                            <input type="text" class="form-control" id=" cakeflavour">
+                                            <input type="text" class="form-control" id="cakeflavour">
                                         </div>
                                     </div>
                                     <div class="form-row">
@@ -197,7 +197,8 @@
                         <p>Thank you so much for making the most amazing wedding cake! I couldn't of wanted anything
                             more
                             for my special day!</p>
-                        <img src="assets/images/Samantha.jpg" class="rounded-circle mr-3" height=110 width=110>
+                        <img src="assets/images/Samantha.jpg" class="rounded-circle mr-3" height=110 width=110
+                            alt="Samantha">
                         <p>Samantha</p>
                     </div>
                 </div>
@@ -207,7 +208,8 @@
                             <p>The cake was beautiful and extremely tasty! The flavours worked so well with each
                                 other!
                             </p>
-                            <img src="assets/images/Anna.jpg" class="rounded-circle mr-3" height=110 width=110>
+                            <img src="assets/images/Anna.jpg" class="rounded-circle mr-3" height=110 width=110
+                                alt="Anna">
                             <p>Anna</p>
                         </div>
                     </div>
@@ -223,10 +225,9 @@
             <div class="row contact-us-footer">
                 <div class="col-lg-4 col-md-5 col-sm-12">
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=london%2C%20hackney&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                href="https://youtube-embed-code.com">youtube embed code</a></div>
+                        <div class="gmap_canvas"><iframe id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=london%2C%20hackney&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7 col-sm-12 contactus">
@@ -273,7 +274,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="contactusbutton">Thank You!</h5>
+                                        <h5 class="modal-title" id="contactusmodal">Thank You!</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
