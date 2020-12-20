@@ -26,8 +26,7 @@ What are the main goals of this site?
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 ##### Returning Visitor Goals
 * As a Returning Visitor, I want to see if they have created new cake flavours and different designs, or even other desserts.
-* As a returning user, I would like to find the best means of contacting the company, even for other queries, which might not necessarily be about a quote.
-* I would like to see if their cake designing portfolio has increased, and, if the delivery area for cakes has expanded.
+* I would like to see if their cake designing portfolio has increased.
 
 
 ### Scope
@@ -143,10 +142,10 @@ A gallery page is available for those to see previous designs, which might help 
 - As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
   - A reviews section under the titled 'Sweet words' was created to have a few testimoals. The page footers all have the social media links.
 #### Returning Visitor Goals
-- As a Returning Visitor, I want to see if they have created new cake flavours and different designs, or even other desserts.
-- As a returning user, I would like to find the best means of contacting the company, even for other queries, which might not necessarily be about a quote.
-- I would like to see if their cake designing portfolio has increased, and, if the delivery area for cakes has expanded.
-
+- As a Returning Visitor, I want to see if they have created new cake flavours, or even other desserts.
+  - The 'Our Process' page will constantly be updated so that any new flavour or update on what is made will be on the site. Also there is an option for people who do want to be contacted for anything other than a quote, to suscribe to emails, which will also include any new updates.
+- I would like to see if their cake designing portfolio has increased.
+ - Once a cake has been created, it will be uploaded onto the 'Gallery' page.
 
 ## Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch. Once there has been a new commit and push on GitPod, the GitHub site will automatically update.
