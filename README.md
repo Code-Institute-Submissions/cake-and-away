@@ -42,9 +42,9 @@ Can the user understand and easily navigate through the system when using it for
 There are only three pages and the information on each page has been kept to a minimal to not bombard users with too much text.
 ### Skeleton 
 The website is divided into the three sections, however along the way I did change the ‘quote’ page title to ‘our process’. For the gallery page, I did remove the carousal and layout the images side by side with text overlay. 
-- Landing Page:<a href="assets/docs/wireframes/landingpage.pdf" target="_blank" >  Home</a>
-- Gallery:<a href="assets/docs/wireframes/gallerypage.pdf" target="_blank" >  Gallery</a>
-- Quote:<a href="assets/docs/wireframes/quotepage.pdf" target="_blank" >  Quote</a>
+- Landing Page:<a href="assets/docs/wireframe/landingpage.pdf" target="_blank" >  Home</a>
+- Gallery:<a href="assets/docs/wireframe/gallerypage.pdf" target="_blank" >  Gallery</a>
+- Quote:<a href="assets/docs/wireframe/quotepage.pdf" target="_blank" >  Quote</a>
 ### Surface
 As most of the cakes that was made had similar colours, such as light pink, white and purple with some being bright colours, I decided to make the site match this.
 Design
@@ -114,6 +114,8 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
     - Used to check how the layout of the website looks across different devices.
 - [W3Schools:](https://www.w3schools.com/)
     - Used as a resource for coding and CSS styling tips
+- [Generated Photo's:](https://generated.photos/faces)
+    - Used for images on the reviews section.
 
 ## Testing
 W3C Markup Validator and W3C CSS Validator Services were utilized to approve each page of the task to guarantee there were no syntax errors in the project.
@@ -152,7 +154,11 @@ To ensure correct deployment, the landing page must be named index.html.
 
 ## Credits
 ### Content
-- Code: - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project using the Bootstrap Grid System, Modal and Carousel.
+All text content was created by me.
 ### Media
-All images were obtained from [Pixabay](https://pixabay.com)
+- The background image for the landing page was obtained from [Pixabay](https://pixabay.com)
+- All gallery images were taken by either by myself or sister
+- The images of the two people in the reviews section was obtained from [Generated Photo's:](https://generated.photos/faces)
 ### Acknowledgements
+- This project idea was mostly created for my sister and family as we run a ccake business
+- Google was a big help as I looked at sevral different cake and baking websites for inspiration
