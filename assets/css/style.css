@@ -108,7 +108,7 @@ body {
 }
 
 .how-it-started-main-text p {
-    line-height: 25px;
+    line-height: 30px;
     font-size: 20px;
     color: #432371;
 }
@@ -120,6 +120,7 @@ body {
 .slogan h3 {
     font-size: 2rem;
     color: #B47978;
+    font-family: "Dancing Script", sans-serif;
 }
 
 
@@ -157,7 +158,15 @@ body {
     color: #AC7277;
 }
 
+.contactus {
+    color: #AC7277;
+}
 
+.contactus h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 200%;
+}
 
 .mapouter {
     position: relative;
@@ -361,6 +370,8 @@ select {
   padding: 0 16px;
   background-color: #6c6d93;
   color: white;
+  padding-bottom: 1rem;
+  border-radius: 1%;
 }
 
 .card-container::after, .row::after {
