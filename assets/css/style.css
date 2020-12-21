@@ -5,14 +5,11 @@ body {
 
 /*Navbar*/
 
-
-
 .brand-name {
     font-family: "Dancing Script", sans-serif;
     font-size: 190%;
     color: #6c6d93;
 }
-
 
 .navbar-light .navbar-brand {
     color: #6c6d93;
@@ -44,6 +41,10 @@ body {
 .nav-bar {
     margin-bottom: 0.5rem;
     margin-top: 1rem;
+}
+
+.navbar {
+    border-bottom: #6c6d93 5px solid;
 }
 
 /*Containers*/
@@ -78,27 +79,19 @@ body {
     background-color: #FEF5EF;
 }
 
-/*Body text*/
-
-.nav-break hr{
-border:none;
-border-top:2px dotted #6c6d93;
-color:#6c6d93;
-background-color:#fff;
-height:1px;
-width:100%;
+.footer-container {
+    background-color: #FEF5EF;
 }
+
+/*Body text*/
 
 .main-body {
     background-color: rgb(108, 109, 147, 0.7);
     border-radius: 2%;
-    width: 60vh;
-    position: absolute;
+    width: 55vh;
+    
 }
 
-.main-body p h2 {
-    height: max-content;
-}
 .intro {
     color: white;
 }
@@ -115,7 +108,7 @@ width:100%;
 }
 
 .how-it-started-main-text p {
-    line-height: 30px;
+    line-height: 25px;
     font-size: 20px;
     color: #432371;
 }
@@ -126,29 +119,18 @@ width:100%;
 
 .slogan h3 {
     font-size: 2rem;
-    font-family: "Dancing Script", sans-serif;
     color: #B47978;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 
 
 /*Page Headers*/
 
-.review-heading {
-    font-family: "Dancing Script", sans-serif;
-}
 
 .review-heading h2 {
+    font-family: "Dancing Script", sans-serif;
     font-size: 280%;
 }
-
-.review p {
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
 
 .how-it-started-header h2 {
     font-size: 3rem;
@@ -158,10 +140,6 @@ width:100%;
 }
 
 /*Footer*/
-
-.footer-container {
-    background-color: #FEF5EF;
-}
 
 
 .footer-container i {
@@ -179,10 +157,7 @@ width:100%;
     color: #AC7277;
 }
 
-.contact-us-footer {
-    color: #AC7277;
-    padding-top: 1rem;
-} 
+
 
 .mapouter {
     position: relative;
@@ -205,16 +180,21 @@ overflow-x:hidden;
 overflow-y:hidden;
 }
 
-.contactus h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+
+.suscribenowbox {
     text-align: center;
+    padding-right: 1.25rem;
 }
 
 /*Review*/
 
 .review-heading hr {
     color: #FAAE7B;
+}
+
+.review p {
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 /*Quote*/
@@ -424,8 +404,14 @@ select {
     }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 400px) {
     .navbar-brand {
         font-size: 20px;    
+        }
+    }
+
+@media (max-width: 400px) {
+    .main-body {
+        width: 80%;    
         }
     }

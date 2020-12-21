@@ -148,9 +148,15 @@ A gallery page is available for those to see previous designs, which might help 
  - Once a cake has been created, it will be uploaded onto the 'Gallery' page.
 
 ## Deployment
-The site is hosted using GitHub pages, deployed directly from the master branch. Once there has been a new commit and push on GitPod, the GitHub site will automatically update.
-To ensure correct deployment, the landing page must be named index.html.
+The site is hosted using GitHub pages, deployed directly from the master branch. 
 
+- I first went to 'my repositories' on GitHub and selected 'New'. From here I added the repository name, kept it as 'Public' and selected 'Add a README file'.
+- Once the repository was created I opened it  via the 'gitpod' button located.
+- All code for the course was written in GitPod.
+- Once there has been a new commit and push on GitPod, the GitHub site will automatically update.
+- To ensure correct deployment, the landing page must be named index.html.
+- To host my project under GitHub so others can view it and be provided with a shareable URL, on my GitHub page, in the "Settings" tab, I scrolled down to sub section 'Github Pages', I selected "Master Branch" under source and saved.
+- The code can be run locally by either selecting "clone" which provides an URL one can use on their local machine
 ## Credits
 ### Content
 All text content was created by me.
