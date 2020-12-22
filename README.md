@@ -116,7 +116,7 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
 - [AmIResponsive:](http://ami.responsivedesign.is/#)
     - Used to check how the layout of the website looks across different devices.
 - [W3Schools:](https://www.w3schools.com/)
-    - Used as a resource for coding and CSS styling tips
+    - Used as a resource for card and gallery coding section and CSS styling tips
 - [Generated Photo's:](https://generated.photos/faces)
     - Used for images on the reviews section.
 - [Imgbb:](https://imgbb.com/)
@@ -147,16 +147,20 @@ This entire site was tested across several browsers (Chrome, FireFox, Safari, In
 The user story first time visit goals were acheieved, the 'Our Process' page lead's, giving people initial prices and the three different key steps needed to build your cake.
 From that information, you were are then required to send a quote, which have the same fields.
 A gallery page is available for those to see previous designs, which might help inspire them to try out different cake styles.
+
 - I want to be able to see the different cake options available and base my quote request off that.
   - There is a page specific for this, where it introduces the section as 'build your cake', here it has the three main sections on what they need to send in a quote.
     Below the cards there is a quote button for those to submit all their ideas.
+<a href="https://ibb.co/pKrZCMH"><img src="https://i.ibb.co/ykB5LZz/user-story-1.png" alt="user-story-1" border="0"></a>
 - As a First Time Visitor, I would like to be able to see the different types of cakes that were previously made so I can see if the designer can make the cake I’ve been dreaming of.
   - Our gallery page showcases previous cakes that have been made to show our capabilities and to inspire.
+<a href="https://ibb.co/CV0DCZN"><img src="https://i.ibb.co/h28wQjh/user-story-3.png" alt="user-story-3" border="0"></a>
 - As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
   - A reviews section under the titled 'Sweet words' was created to have a few testimoals. The page footers all have the social media links.
 #### Returning Visitor Goals
 - As a Returning Visitor, I want to see if they have created new cake flavours, or even other desserts.
   - The 'Our Process' page will constantly be updated so that any new flavour or update on what is made will be on the site. Also, there is an option for people who do want to be contacted for anything other than a quote, to suscribe to emails, which will also include any new updates.
+<a href="https://ibb.co/7JZT2gs"><img src="https://i.ibb.co/ccZpDb4/user-story-4.png" alt="user-story-4" border="0"></a>
 - I would like to see if their cake designing portfolio has increased.
   - Once a new cake has been made, it will be uploaded onto the 'Gallery' page.
 
