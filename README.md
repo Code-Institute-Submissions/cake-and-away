@@ -28,7 +28,6 @@ What are the main goals of this site?
 * As a Returning Visitor, I want to see if they have created new cake flavours and different designs, or even other desserts.
 * I would like to see if their cake designing portfolio has increased.
 
-
 ### Scope
 Which features, based on info from strategy plane, do we want to include in the site?
 * Image gallery
@@ -44,6 +43,9 @@ The website is divided into the three sections, however along the way I did chan
 - Landing Page:<a href="assets/docs/wireframe/landingpage.pdf" target="_blank" >  Home</a>
 - Gallery:<a href="assets/docs/wireframe/gallerypage.pdf" target="_blank" >  Gallery</a>
 - Quote:<a href="assets/docs/wireframe/quotepage.pdf" target="_blank" >  Quote</a>
+
+Once I did realise that the quote page required more information, I went back to the drawing board and created another wireframe that included the new page title.
+ - Our Process: <a href="assets/docs/wireframe/ourprocess.pdf" target="_blank" >  Our Process</a>
 ### Surface
 As most of the cakes that was made had similar colours, such as light pink, white and purple with some being bright colours, I decided to make the site match this.
 Design
@@ -84,7 +86,9 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
 * Include an online chatbot for people to ask simple questions and receive a response instantly – however, this is beyond my current knowledge
 * Allowing some sort of calculator, which when a specific cake size or flavour is selected, pricing for this would appear
 * Have more image animation
-* Improve the look on the ‘Build your cake’ section
+* Improve the look on the ‘Build your cake’ section - try and find a way to implement my initial idea, might require other software such as Adobe Photoshop.
+
+<a href="https://ibb.co/VTkQkSS"><img src="https://i.ibb.co/XtG3Gss/build-your-cake.jpg" alt="build-your-cake" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 
 ## Technologies Used
 
@@ -115,13 +119,20 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
     - Used as a resource for coding and CSS styling tips
 - [Generated Photo's:](https://generated.photos/faces)
     - Used for images on the reviews section.
+- [Imgbb:](https://imgbb.com/)
+    - This is the site I uploaded all my images to view for the README file.
 
 ## Testing
 W3C Markup Validator and W3C CSS Validator Services were utilized to approve each page of the task to guarantee there were no syntax errors in the project.
 - W3C Markup Validator - <a href="assets/docs/validation/w3chtmlvalidator.pdf" target="_blank" >  Results</a>
 - W3C CSS Validator - <a href="assets/docs/validation/w3cssvalidator.pdf" target="_blank" >  Results</a>
 
-Throughout the project there was some errors, such as the nav-bar, I did want the logo to be on the left hands-side, but the rest of the menu on the right-hand side. To fix this I had to use media queries.
+During the project there was some errors.
+ - The nav-bar, I did want the logo to be on the left hands-side, but the rest of the menu on the right-hand side. To fix this I had to use media queries.
+ - The 'comments' box in the footer was not aligning with the rest of the text above. Below is what I kept seeing, I fixed it by specifying the column when it is on a smaller screen.
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/mcxhvTT/contact-us-footer-error.png" alt="contact-us-footer-error" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+ - I also wanted to add a leaflet that I created, however due to the site settings, it reduced the image quality so I decided to ommit the adding the image.
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/Rv7tSP5/cakes-and-sizes.png" alt="cakes-and-sizes" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 
 If you try to submit the contact form without populating the email address field, there will be an error noting the invalid email address.
 
@@ -145,7 +156,7 @@ A gallery page is available for those to see previous designs, which might help 
 - As a Returning Visitor, I want to see if they have created new cake flavours, or even other desserts.
   - The 'Our Process' page will constantly be updated so that any new flavour or update on what is made will be on the site. Also there is an option for people who do want to be contacted for anything other than a quote, to suscribe to emails, which will also include any new updates.
 - I would like to see if their cake designing portfolio has increased.
- - Once a cake has been created, it will be uploaded onto the 'Gallery' page.
+  - Once a new cake has been made, it will be uploaded onto the 'Gallery' page.
 
 ## Deployment
 The site is hosted using GitHub pages, deployed directly from the master branch. 
@@ -159,11 +170,12 @@ The site is hosted using GitHub pages, deployed directly from the master branch.
 - The code can be run locally by either selecting "clone" which provides an URL one can use on their local machine
 ## Credits
 ### Content
-All text content was created by me.
+All text content was created by me. I did have a search around on Google for inspiration.
 ### Media
 - The background image for the landing page was obtained from [Pixabay](https://pixabay.com)
-- All gallery images were taken by either by myself or sister
+- All gallery images were taken by either by myself or sister, and were downloaded from the [Instagram page](https://www.instagram.com/cakeandaway/)
 - The images of the two people in the reviews section was obtained from [Generated Photo's](https://generated.photos/faces)
 ### Acknowledgements
-- This project idea was mostly created for my sister and family as we run a ccake business
-- Google was a big help as I looked at sevral different cake and baking websites for inspiration
+- This project idea was mostly created for my sister and family as we run a cake business
+- Google was a big help as I looked at sevral different cake and baking websites for inspiration- [Imgbb:](https://imgbb.com/)
+- My tutor was very helpful throught the entire project.
