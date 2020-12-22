@@ -121,6 +121,8 @@ For most of those who wish to purchase a cake for a special occasion, they alrea
     - Used for images on the reviews section.
 - [Imgbb:](https://imgbb.com/)
     - This is the site I uploaded all my images to view for the README file.
+- [Embedgooglemap](https://www.embedgooglemap.net/en/?gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6LXp3WgEbNc9v9Z9iFdmMba6sy_1DYpwyA3R28PJryTKzXcFtPLo_waAsAWEALw_wcB)
+    - I optained the HTML and URL from Embedgooglemap, to which I added it to my footer.
 
 ## Testing
 W3C Markup Validator and W3C CSS Validator Services were utilized to approve each page of the task to guarantee there were no syntax errors in the project.
@@ -131,7 +133,7 @@ During the project there was some errors.
  - The nav-bar, I did want the logo to be on the left hands-side, but the rest of the menu on the right-hand side. To fix this I had to use media queries.
  - The 'comments' box in the footer was not aligning with the rest of the text above. Below is what I kept seeing, I fixed it by specifying the column when it is on a smaller screen.
  <a href="https://imgbb.com/"><img src="https://i.ibb.co/mcxhvTT/contact-us-footer-error.png" alt="contact-us-footer-error" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
- - I also wanted to add a leaflet that I created, however due to the site settings, it reduced the image quality so I decided to ommit the adding the image.
+ - I also wanted to add a leaflet that I created, however due to the site settings, it reduced the image quality, so I decided to ommit the adding the image.
  <a href="https://imgbb.com/"><img src="https://i.ibb.co/Rv7tSP5/cakes-and-sizes.png" alt="cakes-and-sizes" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 
 If you try to submit the contact form without populating the email address field, there will be an error noting the invalid email address.
@@ -147,14 +149,14 @@ From that information, you were are then required to send a quote, which have th
 A gallery page is available for those to see previous designs, which might help inspire them to try out different cake styles.
 - I want to be able to see the different cake options available and base my quote request off that.
   - There is a page specific for this, where it introduces the section as 'build your cake', here it has the three main sections on what they need to send in a quote.
-    Below is a quote botton for those to submit all their ideas.
+    Below the cards there is a quote button for those to submit all their ideas.
 - As a First Time Visitor, I would like to be able to see the different types of cakes that were previously made so I can see if the designer can make the cake I’ve been dreaming of.
   - Our gallery page showcases previous cakes that have been made to show our capabilities and to inspire.
 - As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
   - A reviews section under the titled 'Sweet words' was created to have a few testimoals. The page footers all have the social media links.
 #### Returning Visitor Goals
 - As a Returning Visitor, I want to see if they have created new cake flavours, or even other desserts.
-  - The 'Our Process' page will constantly be updated so that any new flavour or update on what is made will be on the site. Also there is an option for people who do want to be contacted for anything other than a quote, to suscribe to emails, which will also include any new updates.
+  - The 'Our Process' page will constantly be updated so that any new flavour or update on what is made will be on the site. Also, there is an option for people who do want to be contacted for anything other than a quote, to suscribe to emails, which will also include any new updates.
 - I would like to see if their cake designing portfolio has increased.
   - Once a new cake has been made, it will be uploaded onto the 'Gallery' page.
 
